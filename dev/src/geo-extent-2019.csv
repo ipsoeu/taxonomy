@@ -1,0 +1,6 @@
+id,name,description,parent
+GE01,Local,The public administration level corresponding to a city or municipality.,GE02
+GE02,Regional,The public administration level corresponding to a region or state of a country.,GE03
+GE03,National,The public administration level corresponding to a country.,
+GE04,International,"It denotes public administrations (local, regional, or regional) from different countries, coordinating or involved in a given service or initiative.",
+GE00,Unknown,,

@@ -1,0 +1,5 @@
+id,name,description,parent
+ST01,In development,,
+ST02,Pilot,,
+ST03,In production,,
+ST00,Unknown,,

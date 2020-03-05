@@ -1,0 +1,4 @@
+id,name,description,parent,exact_match
+OC01,Governmental,Organisation belonging to the public sector.,,
+OC02,Private,Organisation belonging to the private sector.,,
+OC00,Unknown,Organisation category unknown.,,

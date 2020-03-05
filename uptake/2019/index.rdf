@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#" xmlns:ft="http://publications.europa.eu/resource/authority/file-type/" xmlns:mt="https://www.iana.org/assignments/media-types/">
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/uptake/2019">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:identifier>uptake-2019</dct:identifier>
+    <owl:versionInfo>2019</owl:versionInfo>
+    <dct:isVersionOf rdf:resource="https://ipsoeu.github.io/taxonomy/uptake"/>
+    <dct:title xml:lang="en">Uptake</dct:title>
+    <dct:description xml:lang="en">The levels of uptake by stakeholders of a given service or initiative.</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</dct:issued>
+    <dct:valid rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</dct:valid>
+    <wdrs:validfrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</wdrs:validfrom>
+    <dcat:landingPage rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019"/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <dct:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019/"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019/UP00"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/uptake/2019/UP01">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>UP01</dct:identifier>
+    <skos:notation>UP01</skos:notation>
+    <skos:prefLabel xml:lang="en">Small</skos:prefLabel>
+    <skos:definition xml:lang="en">Uptake by less than 10% of the total stakeholders.</skos:definition>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019/UP02"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/uptake/2019/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier></dct:identifier>
+    <skos:notation></skos:notation>
+    <skos:prefLabel xml:lang="en">Considerable</skos:prefLabel>
+    <skos:definition xml:lang="en">Uptake by 10% tp 25% of the total stakeholders.</skos:definition>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019/UP03"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019/"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019/UP00"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/uptake/2019/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier></dct:identifier>
+    <skos:notation></skos:notation>
+    <skos:prefLabel xml:lang="en">Large</skos:prefLabel>
+    <skos:definition xml:lang="en">Uptake by 25% to 50% of the total stakeholders.</skos:definition>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019/UP04"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019/"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019/UP00"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/uptake/2019/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier></dct:identifier>
+    <skos:notation></skos:notation>
+    <skos:prefLabel xml:lang="en">Very large</skos:prefLabel>
+    <skos:definition xml:lang="en">Uptake by more than 50% of the total stakeholders.</skos:definition>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019/"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019/UP00"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/uptake/2019/UP00">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>UP00</dct:identifier>
+    <skos:notation>UP00</skos:notation>
+    <skos:prefLabel xml:lang="en">Unknown</skos:prefLabel>
+    <skos:definition xml:lang="en">Unknown level of uptake.</skos:definition>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/uptake/2019"/>
+  </rdf:Description>
+</rdf:RDF>

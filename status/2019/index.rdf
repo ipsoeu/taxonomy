@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#" xmlns:ft="http://publications.europa.eu/resource/authority/file-type/" xmlns:mt="https://www.iana.org/assignments/media-types/">
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/status/2019">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:identifier>status-2019</dct:identifier>
+    <owl:versionInfo>2019</owl:versionInfo>
+    <dct:isVersionOf rdf:resource="https://ipsoeu.github.io/taxonomy/status"/>
+    <dct:title xml:lang="en">Service statuses</dct:title>
+    <dct:description xml:lang="en">The maturity statuses of a service.</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</dct:issued>
+    <dct:valid rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</dct:valid>
+    <wdrs:validfrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</wdrs:validfrom>
+    <dcat:landingPage rdf:resource="https://ipsoeu.github.io/taxonomy/status/2019"/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <dct:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/status/2019/ST01"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/status/2019/ST02"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/status/2019/ST03"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/status/2019/ST00"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/status/2019/ST01">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>ST01</dct:identifier>
+    <skos:notation>ST01</skos:notation>
+    <skos:prefLabel xml:lang="en">In development</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/status/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/status/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/status/2019/ST02">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>ST02</dct:identifier>
+    <skos:notation>ST02</skos:notation>
+    <skos:prefLabel xml:lang="en">Pilot</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/status/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/status/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/status/2019/ST03">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>ST03</dct:identifier>
+    <skos:notation>ST03</skos:notation>
+    <skos:prefLabel xml:lang="en">In production</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/status/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/status/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/status/2019/ST00">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>ST00</dct:identifier>
+    <skos:notation>ST00</skos:notation>
+    <skos:prefLabel xml:lang="en">Unknown</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/status/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/status/2019"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#" xmlns:ft="http://publications.europa.eu/resource/authority/file-type/" xmlns:mt="https://www.iana.org/assignments/media-types/">
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:identifier>type-2019</dct:identifier>
+    <owl:versionInfo>2019</owl:versionInfo>
+    <dct:isVersionOf rdf:resource="https://ipsoeu.github.io/taxonomy/type"/>
+    <dct:title xml:lang="en">Service types</dct:title>
+    <dct:description xml:lang="en">The type of a public service with respect to the aims it was set up, and the application of the relevant technology.</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</dct:issued>
+    <dct:valid rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</dct:valid>
+    <wdrs:validfrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</wdrs:validfrom>
+    <dcat:landingPage rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <dct:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY01"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY02"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY03"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY04"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY05"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY06"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY07"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY08"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY09"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY10"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY11"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY12"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY13"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY14"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY15"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY16"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY99"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019/TY00"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY01">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY01</dct:identifier>
+    <skos:notation>TY01</skos:notation>
+    <skos:prefLabel xml:lang="en">Auditing and Logging</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY02">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY02</dct:identifier>
+    <skos:notation>TY02</skos:notation>
+    <skos:prefLabel xml:lang="en">Authentication</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY03">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY03</dct:identifier>
+    <skos:notation>TY03</skos:notation>
+    <skos:prefLabel xml:lang="en">Chatbot</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY04">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY04</dct:identifier>
+    <skos:notation>TY04</skos:notation>
+    <skos:prefLabel xml:lang="en">Copyright and intellectual property protection</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY05">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY05</dct:identifier>
+    <skos:notation>TY05</skos:notation>
+    <skos:prefLabel xml:lang="en">Cybersecurity</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY06">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY06</dct:identifier>
+    <skos:notation>TY06</skos:notation>
+    <skos:prefLabel xml:lang="en">Data access and reuse</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY07">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY07</dct:identifier>
+    <skos:notation>TY07</skos:notation>
+    <skos:prefLabel xml:lang="en">Disintermediation and decentralized networks</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY08">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY08</dct:identifier>
+    <skos:notation>TY08</skos:notation>
+    <skos:prefLabel xml:lang="en">Forecasting and prediction markets</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY09">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY09</dct:identifier>
+    <skos:notation>TY09</skos:notation>
+    <skos:prefLabel xml:lang="en">Governance and voting</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY10">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY10</dct:identifier>
+    <skos:notation>TY10</skos:notation>
+    <skos:prefLabel xml:lang="en">Payments and international transactions</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY11">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY11</dct:identifier>
+    <skos:notation>TY11</skos:notation>
+    <skos:prefLabel xml:lang="en">Process digitization</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY12">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY12</dct:identifier>
+    <skos:notation>TY12</skos:notation>
+    <skos:prefLabel xml:lang="en">Self Sovereign - digital identity</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY13">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY13</dct:identifier>
+    <skos:notation>TY13</skos:notation>
+    <skos:prefLabel xml:lang="en">Service integration</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY14">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY14</dct:identifier>
+    <skos:notation>TY14</skos:notation>
+    <skos:prefLabel xml:lang="en">Smart city</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY15">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY15</dct:identifier>
+    <skos:notation>TY15</skos:notation>
+    <skos:prefLabel xml:lang="en">Tracking of goods, supply chain, IoT</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY16">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY16</dct:identifier>
+    <skos:notation>TY16</skos:notation>
+    <skos:prefLabel xml:lang="en">Validation and benchmarking</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY99">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY99</dct:identifier>
+    <skos:notation>TY99</skos:notation>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/type/2019/TY00">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>TY00</dct:identifier>
+    <skos:notation>TY00</skos:notation>
+    <skos:prefLabel xml:lang="en">Unknown</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/type/2019"/>
+  </rdf:Description>
+</rdf:RDF>

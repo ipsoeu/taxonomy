@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#" xmlns:ft="http://publications.europa.eu/resource/authority/file-type/" xmlns:mt="https://www.iana.org/assignments/media-types/">
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/technology/2019">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:identifier>technology-2019</dct:identifier>
+    <owl:versionInfo>2019</owl:versionInfo>
+    <dct:isVersionOf rdf:resource="https://ipsoeu.github.io/taxonomy/technology"/>
+    <dct:title xml:lang="en">Technologies</dct:title>
+    <dct:description xml:lang="en">The set of technologies in scope with the Innovative Public Services (IPS) Action of the EU ISA² Programme.</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</dct:issued>
+    <dct:valid rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</dct:valid>
+    <wdrs:validfrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</wdrs:validfrom>
+    <dcat:landingPage rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019"/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <dct:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019/IT01"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019/IT02"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019/IT03"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019/IT04"/>
+    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019/IT05"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/technology/2019/IT01">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>IT01</dct:identifier>
+    <skos:notation>IT01</skos:notation>
+    <skos:prefLabel xml:lang="en">Artificial Intelligence</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/technology/2019/IT02">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>IT02</dct:identifier>
+    <skos:notation>IT02</skos:notation>
+    <skos:prefLabel xml:lang="en">Blockchain</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/technology/2019/IT03">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>IT03</dct:identifier>
+    <skos:notation>IT03</skos:notation>
+    <skos:prefLabel xml:lang="en">Internet of Things</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/technology/2019/IT04">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>IT04</dct:identifier>
+    <skos:notation>IT04</skos:notation>
+    <skos:prefLabel xml:lang="en">API</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/technology/2019/IT05">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier>IT05</dct:identifier>
+    <skos:notation>IT05</skos:notation>
+    <skos:prefLabel xml:lang="en">Data analytics</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/technology/2019"/>
+  </rdf:Description>
+</rdf:RDF>

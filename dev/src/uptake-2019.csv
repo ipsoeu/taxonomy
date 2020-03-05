@@ -1,0 +1,6 @@
+id,name,description,parent,exact_match
+UP01,Small,Uptake by less than 10% of the total stakeholders.,UP02,
+,Considerable,Uptake by 10% tp 25% of the total stakeholders.,UP03,
+,Large,Uptake by 25% to 50% of the total stakeholders.,UP04,
+,Very large,Uptake by more than 50% of the total stakeholders.,,
+UP00,Unknown,Unknown level of uptake.,,
