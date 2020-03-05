@@ -4,8 +4,8 @@
   define("ROOT","../../");
 //  define("BASE_URI","http://localhost/taxonomy/");
   define("BASE_URI","https://ipsoeu.github.io/taxonomy/");
-  define("TOOL_ACRONYM","IPS Taxonomy");
-  define("TOOL_NAME","Innovative Public Services Taxonomy");
+  define("TOOL_ACRONYM","IPS Taxonomies");
+  define("TOOL_NAME","Innovative Public Services Taxonomies");
   define("ABOUT_URL","https://github.com/ipsoeu/taxonomy");
   define("ABOUT_TEXT","IPS Taxonomy is an experimental Linked Data implementation of the taxonomies developed in the framework of the Innovative Public Services (IPS) Action of the EU ISA² Programme, and used in the service catalogue of the IPS Observatory (IPSO).");
   define("PUBLISHER_NAME","European Commission");
