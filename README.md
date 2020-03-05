@@ -1,4 +1,4 @@
-# Innovative Public Services Taxonomies (IPS-Taxonomy) 
+# Innovative Public Services Taxonomies (IPS Taxonomy) 
 
 IPS Taxonomy is an experimental Linked Data implementation of the taxonomies developed in the framework of the Innovative Public Services (IPS) Action of the EU ISA² Programme, and used in the service catalogue of the IPS Observatory (IPSO):
 
