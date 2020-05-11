@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#" xmlns:ft="http://publications.europa.eu/resource/authority/file-type/" xmlns:mt="https://www.iana.org/assignments/media-types/">
-  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/organisation-category/2019">
+  <rdf:Description rdf:about="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <dct:identifier>organisation-category-2019</dct:identifier>
     <owl:versionInfo>2019</owl:versionInfo>
-    <dct:isVersionOf rdf:resource="https://ipsoeu.github.io/taxonomy/organisation-category"/>
+    <dct:isVersionOf rdf:resource="https://w3id.org/ipsoeu/taxonomy/organisation-category"/>
     <dct:title xml:lang="en">Organisation categories</dct:title>
     <dct:description xml:lang="en">The categories in which organisations can be classified.</dct:description>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</dct:issued>
     <dct:valid rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</dct:valid>
     <wdrs:validfrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</wdrs:validfrom>
-    <dcat:landingPage rdf:resource="https://ipsoeu.github.io/taxonomy/organisation-category/2019"/>
+    <dcat:landingPage rdf:resource="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019"/>
     <rdfs:isDefinedBy rdf:resource=""/>
     <dct:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
     <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/organisation-category/2019/OC01"/>
-    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/organisation-category/2019/OC02"/>
-    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/organisation-category/2019/OC00"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019/OC01"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019/OC02"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019/OC00"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/organisation-category/2019/OC01">
+  <rdf:Description rdf:about="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019/OC01">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier>OC01</dct:identifier>
     <skos:notation>OC01</skos:notation>
     <skos:prefLabel xml:lang="en">Governmental</skos:prefLabel>
     <skos:definition xml:lang="en">Organisation belonging to the public sector.</skos:definition>
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/organisation-category/2019"/>
-    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/organisation-category/2019"/>
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/organisation-category/2019/OC02">
+  <rdf:Description rdf:about="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019/OC02">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier>OC02</dct:identifier>
     <skos:notation>OC02</skos:notation>
     <skos:prefLabel xml:lang="en">Private</skos:prefLabel>
     <skos:definition xml:lang="en">Organisation belonging to the private sector.</skos:definition>
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/organisation-category/2019"/>
-    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/organisation-category/2019"/>
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/organisation-category/2019/OC00">
+  <rdf:Description rdf:about="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019/OC00">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier>OC00</dct:identifier>
     <skos:notation>OC00</skos:notation>
     <skos:prefLabel xml:lang="en">Unknown</skos:prefLabel>
     <skos:definition xml:lang="en">Organisation category unknown.</skos:definition>
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/organisation-category/2019"/>
-    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/organisation-category/2019"/>
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/ipsoeu/taxonomy/organisation-category/2019"/>
   </rdf:Description>
 </rdf:RDF>

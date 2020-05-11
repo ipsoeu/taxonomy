@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#" xmlns:ft="http://publications.europa.eu/resource/authority/file-type/" xmlns:mt="https://www.iana.org/assignments/media-types/">
-  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/geo-extent/2019">
+  <rdf:Description rdf:about="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <dct:identifier>geo-extent-2019</dct:identifier>
     <owl:versionInfo>2019</owl:versionInfo>
-    <dct:isVersionOf rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent"/>
+    <dct:isVersionOf rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent"/>
     <dct:title xml:lang="en">Geographic extent</dct:title>
-    <dct:description xml:lang="en">The different levels in which public administraitions can be classified.</dct:description>
+    <dct:description xml:lang="en">The different levels in which public administrations can be classified.</dct:description>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</dct:issued>
     <dct:valid rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</dct:valid>
     <wdrs:validfrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-18</wdrs:validfrom>
-    <dcat:landingPage rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019"/>
+    <dcat:landingPage rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019"/>
     <rdfs:isDefinedBy rdf:resource=""/>
     <dct:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
     <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019/GE03"/>
-    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019/GE04"/>
-    <skos:hasTopConcept rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019/GE00"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019/GE03"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019/GE04"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019/GE00"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/geo-extent/2019/GE01">
+  <rdf:Description rdf:about="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019/GE01">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier>GE01</dct:identifier>
     <skos:notation>GE01</skos:notation>
     <skos:prefLabel xml:lang="en">Local</skos:prefLabel>
     <skos:definition xml:lang="en">The public administration level corresponding to a city or municipality.</skos:definition>
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019"/>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019/GE02"/>
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019/GE02"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/geo-extent/2019/GE02">
+  <rdf:Description rdf:about="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019/GE02">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier>GE02</dct:identifier>
     <skos:notation>GE02</skos:notation>
     <skos:prefLabel xml:lang="en">Regional</skos:prefLabel>
     <skos:definition xml:lang="en">The public administration level corresponding to a region or state of a country.</skos:definition>
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019"/>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019/GE03"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019/GE01"/>
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019/GE03"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019/GE01"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/geo-extent/2019/GE03">
+  <rdf:Description rdf:about="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019/GE03">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier>GE03</dct:identifier>
     <skos:notation>GE03</skos:notation>
     <skos:prefLabel xml:lang="en">National</skos:prefLabel>
     <skos:definition xml:lang="en">The public administration level corresponding to a country.</skos:definition>
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019"/>
-    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019/GE02"/>
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019/GE02"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/geo-extent/2019/GE04">
+  <rdf:Description rdf:about="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019/GE04">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier>GE04</dct:identifier>
     <skos:notation>GE04</skos:notation>
     <skos:prefLabel xml:lang="en">International</skos:prefLabel>
     <skos:definition xml:lang="en">It denotes public administrations (local, regional, or regional) from different countries, coordinating or involved in a given service or initiative.</skos:definition>
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019"/>
-    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019"/>
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/geo-extent/2019/GE00">
+  <rdf:Description rdf:about="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019/GE00">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier>GE00</dct:identifier>
     <skos:notation>GE00</skos:notation>
     <skos:prefLabel xml:lang="en">Unknown</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019"/>
-    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent/2019"/>
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent/2019"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#" xmlns:ft="http://publications.europa.eu/resource/authority/file-type/" xmlns:mt="https://www.iana.org/assignments/media-types/">
-  <rdf:Description rdf:about="https://ipsoeu.github.io/taxonomy/">
+  <rdf:Description rdf:about="https://w3id.org/ipsoeu/taxonomy/">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
     <dct:identifier>ips taxonomies</dct:identifier>
     <dct:alternative>IPS Taxonomies</dct:alternative>
@@ -8,12 +8,12 @@
     <dct:description xml:lang="en">IPS Taxonomy is an experimental Linked Data implementation of the taxonomies developed in the framework of the Innovative Public Services (IPS) Action of the EU ISA² Programme, and used in the service catalogue of the IPS Observatory (IPSO).</dct:description>
     <dct:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
     <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-    <dcat:landingPage rdf:resource="https://ipsoeu.github.io/taxonomy/"/>
-    <dcat:dataset rdf:resource="https://ipsoeu.github.io/taxonomy/geo-extent"/>
-    <dcat:dataset rdf:resource="https://ipsoeu.github.io/taxonomy/organisation-category"/>
-    <dcat:dataset rdf:resource="https://ipsoeu.github.io/taxonomy/status"/>
-    <dcat:dataset rdf:resource="https://ipsoeu.github.io/taxonomy/technology"/>
-    <dcat:dataset rdf:resource="https://ipsoeu.github.io/taxonomy/type"/>
-    <dcat:dataset rdf:resource="https://ipsoeu.github.io/taxonomy/uptake"/>
+    <dcat:landingPage rdf:resource="https://w3id.org/ipsoeu/taxonomy/"/>
+    <dcat:dataset rdf:resource="https://w3id.org/ipsoeu/taxonomy/geo-extent"/>
+    <dcat:dataset rdf:resource="https://w3id.org/ipsoeu/taxonomy/organisation-category"/>
+    <dcat:dataset rdf:resource="https://w3id.org/ipsoeu/taxonomy/status"/>
+    <dcat:dataset rdf:resource="https://w3id.org/ipsoeu/taxonomy/technology"/>
+    <dcat:dataset rdf:resource="https://w3id.org/ipsoeu/taxonomy/type"/>
+    <dcat:dataset rdf:resource="https://w3id.org/ipsoeu/taxonomy/uptake"/>
   </rdf:Description>
 </rdf:RDF>

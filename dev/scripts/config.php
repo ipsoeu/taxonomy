@@ -3,7 +3,8 @@
   define("ABS_PATH","/taxonomy/");
   define("ROOT","../../");
 //  define("BASE_URI","http://localhost/taxonomy/");
-  define("BASE_URI","https://ipsoeu.github.io/taxonomy/");
+//  define("BASE_URI","https://ipsoeu.github.io/taxonomy/");
+  define("BASE_URI","https://w3id.org/ipsoeu/taxonomy/");
   define("TOOL_ACRONYM","IPS Taxonomies");
   define("TOOL_NAME","Innovative Public Services Taxonomies");
   define("ABOUT_URL","https://github.com/ipsoeu/taxonomy");
